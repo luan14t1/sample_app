@@ -1,7 +1,10 @@
-<% provide(:title, "Home") %>
-<h1>Sample App</h1>
+<% s = t ".home" %>
+<% provide(:title,s) %>
+<h1><%= t ".title" %></h1>
 <p>
-  This is the home page for the
-  <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
+  <%= t ".content1" %>
+  <a href="http://www.railstutorial.org/"><%= t ".top" %></a>
+  <%= t ".content2" %>
 </p>
+<%= link_to "English", locale:"en" %>
+<%= link_to "Vietnamese", locale:"vi" %>
