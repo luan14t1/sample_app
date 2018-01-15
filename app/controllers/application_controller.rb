@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 class ApplicationController < ActionController::Base
+  before_action :set_locale
   protect_from_forgery with: :exception
   def hello
     render html: "Hello, world!"
   end
-  before_action :set_locale
 
   private
 
