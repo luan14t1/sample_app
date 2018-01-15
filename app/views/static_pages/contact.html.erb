@@ -1,9 +1,8 @@
-<% s = t ".title" %>
-<% provide(:title, s) %>
+<% provide(:title, (t ".title")) %>
 <h1><%= t ".title" %></h1>
 <p>
   <%= t ".content1" %>
   <a href="http://www.railstutorial.org/contact"><%= t ".content2" %></a>.
 </p>
-<%= link_to "English", locale:"en" %>
-<%= link_to "Vietnamese", locale:"vi" %>
+<%= link_to "English", locale: "en" %>
+<%= link_to "Vietnamese", locale: "vi" %>
