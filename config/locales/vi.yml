@@ -6,6 +6,7 @@ vi:
       content2: "ứng dụng mẫu."
       home: "Trang chủ"
       top: "Hướng dẫn về Ruby on Rails"
+      signup: "Đăng kí ngay bây giờ!"
     about:
        title: "Giới thiệu"
        content1: ""
@@ -31,3 +32,19 @@ vi:
   layouts:
     application:
        top: "Hướng dẫn sử dụng Ruby on Rails"
+    footer:
+      content1: ""
+      content2: "Hướng dẫn sử dụng Ruby on Rails "
+      content3: "bởi "
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+    header:
+      sp: "Ứng dụng đơn giản"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+  users:
+    new:
+      sign_up: "Đăng kí"
+      content1: "Đây sẽ là trang đăng ký cho người dùng mới."
