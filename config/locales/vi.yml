@@ -44,6 +44,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      user: "Người dùng"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
   users:
     new:
       sign_up: "Đăng kí"
@@ -55,3 +60,15 @@ vi:
     create:
       success: "Chào mừng đến với ứng dụng mẫu"
       danger: "Lỗi!!!"
+  sessions:
+     new:
+       login: "Đăng nhập"
+       email: "Email"
+       pass: "Mật khẩu"
+       user: "Bạn chưa có tài khoản?"
+       signup: "Đăng kí ngay!"
+     create:
+       success: "Đăng nhập thành công"
+       danger: "Email hoặc mật khẩu không hợp lệ"
+     destroy:
+       success: "Tạm biệt"

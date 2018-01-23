@@ -44,6 +44,11 @@ en:
        home: "Home"
        help: "Help"
        login: "Log in"
+       user: "Users"
+       profile: "Profile"
+       setting: "Settings"
+       logout: "Log out"
+       account: "Account"
   users:
      new:
        sign_up: "Sign up"
@@ -55,3 +60,15 @@ en:
      create:
        success: "Welcome to the Sample App!"
        danger: "Error!!!"
+  sessions:
+     new:
+       login: "Login"
+       email: "Email"
+       pass: "Password"
+       user: "New user?"
+       signup: "Sign up now!"
+     create:
+       success: "Login Completed"
+       danger: "Invalid email/password combination"
+     destroy:
+       success: "Good bye"
