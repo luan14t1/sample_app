@@ -47,4 +47,11 @@ vi:
   users:
     new:
       sign_up: "Đăng kí"
-      content1: "Đây sẽ là trang đăng ký cho người dùng mới."
+      name: "Tên đăng nhập"
+      email: "Email"
+      pass: "Mật khẩu"
+      re_pass: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+    create:
+      success: "Chào mừng đến với ứng dụng mẫu"
+      danger: "Lỗi!!!"
