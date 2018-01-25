@@ -6,4 +6,10 @@ user:
   password:
     min_length: 6
   gravatar:
-    size: 80
+    helper:
+      size: 80
+    views:
+      size: 50
+pages:
+  user:
+    per_page: 10

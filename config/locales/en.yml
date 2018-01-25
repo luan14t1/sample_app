@@ -50,16 +50,36 @@ en:
        logout: "Log out"
        account: "Account"
   users:
-     new:
-       sign_up: "Sign up"
+     form:
        name: "Name"
        email: "Email"
        pass: "Password"
        re_pass: "Password_confirmation"
+     new:
+       sign_up: "Sign up"
        submit: "Create my account"
+     edit:
+       edit: "Edit user"
+       update: "Update your profile"
+       submit: "Save changes"
+       login : "Please login."
+       change: "change"
      create:
-       success: "Welcome to the Sample App!"
-       danger: "Error!!!"
+       signup_success: "Welcome to the Sample App!"
+       signup_danger: "Error!!!"
+     update:
+       update_user_success: "Update Completed"
+       update_user_danger: "Error!"
+     destroy:
+       delete_user_success: "User deleted!"
+       delete_user_danger: "Delete failed"
+     index:
+       title: "All users"
+     user:
+       delete: "Delete"
+       confirm: "You sure?"
+     show:
+       login: "Please Login"
   sessions:
      new:
        login: "Login"
@@ -68,7 +88,7 @@ en:
        user: "New user?"
        signup: "Sign up now!"
      create:
-       success: "Login Completed"
-       danger: "Invalid email/password combination"
+       account_login_success: "Login Completed"
+       invalid_user_danger: "Invalid email/password combination"
      destroy:
-       success: "Good bye"
+       logout_user_success: "Good bye"
