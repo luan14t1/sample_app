@@ -7,8 +7,7 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:session][:email].downcase)
     if user&.authenticate(params[:session][:password])
       flash[:success] = t(".success")
-      log_in user
-      redirect_to user
+      login_success user
     else
       flash[:danger] = t(".danger")
       render :new
@@ -17,7 +16,13 @@ class SessionsController < ApplicationController
 
   def destroy
     flash[:success] = t(".success")
-    log_out
+    log_out if logged_in?
     redirect_to root_url
+  end
+
+  def login_success user
+    log_in user
+    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+    redirect_to user
   end
 end
