@@ -50,16 +50,36 @@ vi:
       logout: "Đăng xuất"
       account: "Tài khoản"
   users:
-    new:
-      sign_up: "Đăng kí"
+    form:
       name: "Tên đăng nhập"
       email: "Email"
       pass: "Mật khẩu"
       re_pass: "Xác nhận mật khẩu"
+    new:
+      sign_up: "Đăng kí"
       submit: "Tạo tài khoản"
+    edit:
+      edit: "Chỉnh sữa thông tin"
+      update: "Cập nhật hồ sơ"
+      submit: "Lưu thay đổi"
+      login: "Vui lòng đăng nhập"
+      change: "thay đổi"
     create:
-      success: "Chào mừng đến với ứng dụng mẫu"
-      danger: "Lỗi!!!"
+      signup_success: "Chào mừng đến với ứng dụng mẫu"
+      signup_danger: "Lỗi!!!"
+    update:
+      update_user_success: "Cập nhật thông tin thành công"
+      update_user_danger: "Cập nhật thất bại"
+    destroy:
+      delete_user_success: "Đã xóa người dùng!"
+      delete_user_danger: "Xóa thât bại"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn có chắc chắn?"
+    show:
+      login: "Vui lòng đăng nhập"
   sessions:
      new:
        login: "Đăng nhập"
@@ -68,7 +88,7 @@ vi:
        user: "Bạn chưa có tài khoản?"
        signup: "Đăng kí ngay!"
      create:
-       success: "Đăng nhập thành công"
-       danger: "Email hoặc mật khẩu không hợp lệ"
+       account_login_success: "Đăng nhập thành công"
+       invalid_user_danger: "Email hoặc mật khẩu không hợp lệ"
      destroy:
-       success: "Tạm biệt"
+       logout_user_success: "Tạm biệt"
