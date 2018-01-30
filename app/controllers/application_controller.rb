@@ -19,7 +19,7 @@ class ApplicationController < ActionController::Base
   def logged_in_user
     return if logged_in?
     store_location
-    flash[:danger] = t ".login"
+    flash[:danger] = t ".invalid_user_login"
     redirect_to login_url
   end
 
