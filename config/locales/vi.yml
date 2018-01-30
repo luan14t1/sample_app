@@ -67,6 +67,7 @@ vi:
     create:
       signup_success: "Chào mừng đến với ứng dụng mẫu"
       signup_danger: "Lỗi!!!"
+      info_account_activation: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản"
     update:
       update_user_success: "Cập nhật thông tin thành công"
       update_user_danger: "Cập nhật thất bại"
@@ -79,7 +80,7 @@ vi:
       delete: "Xóa"
       confirm: "Bạn có chắc chắn?"
     show:
-      login: "Vui lòng đăng nhập"
+      invalid_user_login: "Vui lòng đăng nhập"
   sessions:
      new:
        login: "Đăng nhập"
@@ -90,5 +91,17 @@ vi:
      create:
        account_login_success: "Đăng nhập thành công"
        invalid_user_danger: "Email hoặc mật khẩu không hợp lệ"
+       account_not_active: "Tài khoản không được kích hoạt. Kiểm tra email
+         của bạn để biết liên kết kích hoạt."
      destroy:
        logout_user_success: "Tạm biệt"
+  account_activations:
+     edit:
+       activation_account_success: "Đã kích hoạt tài khoản"
+       invalid_user_danger: "Liên kết kích hoạt không hợp lệ"
+  user_mailer:
+     account_activation:
+       app: "Sample App"
+  mailer:
+     user_mailer:
+       subject: "Kích hoạt tài khoản"

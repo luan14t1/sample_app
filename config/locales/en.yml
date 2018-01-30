@@ -67,6 +67,7 @@ en:
      create:
        signup_success: "Welcome to the Sample App!"
        signup_danger: "Error!!!"
+       info_account_activation: "Please check your email to activate your account."
      update:
        update_user_success: "Update Completed"
        update_user_danger: "Error!"
@@ -79,7 +80,7 @@ en:
        delete: "Delete"
        confirm: "You sure?"
      show:
-       login: "Please Login"
+       invalid_user_login: "Please Login"
   sessions:
      new:
        login: "Login"
@@ -90,5 +91,17 @@ en:
      create:
        account_login_success: "Login Completed"
        invalid_user_danger: "Invalid email/password combination"
+       account_not_active: "Account not activated. Check your email for the
+         activation link."
      destroy:
-       logout_user_success: "Good bye"
+       delete_user_success: "Good bye"
+  account_activations:
+     edit:
+       activation_account_success: "Account activated!"
+       invalid_link_danger: "Invalid activation link"
+  user_mailer:
+     account_activation:
+       app: "Ứng dụng đơn giản"
+  mailer:
+     user_mailer:
+       subject: "Kích hoạt tài khoản"
