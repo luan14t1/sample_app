@@ -88,6 +88,8 @@ vi:
        pass: "Mật khẩu"
        user: "Bạn chưa có tài khoản?"
        signup: "Đăng kí ngay!"
+       remember: "Nhớ tài khoản ở máy tính"
+       forgot: "(Quên mật khẩu)"
      create:
        account_login_success: "Đăng nhập thành công"
        invalid_user_danger: "Email hoặc mật khẩu không hợp lệ"
@@ -102,6 +104,20 @@ vi:
   user_mailer:
      account_activation:
        app: "Sample App"
-  mailer:
-     user_mailer:
        subject: "Kích hoạt tài khoản"
+     password_reset:
+       subject: "Đặt lại mật khẩu"
+  password_resets:
+     edit:
+       title: "Đặt lại mật khẩu"
+       submit: "Cập nhật mật khẩu"
+     new:
+       title: "Quên mật khẩu"
+       submit: "Gửi"
+     create:
+       email_send_success: "Email hướng dẫn đặt lại mật khẩu đã gứi"
+       invalid_email_danger: "Không tìm thấy địa chỉ email"
+       expiration_reset_danger: "Đặt lại mật khẩu đã hết hạn."
+     update:
+       password_reset_success: "Mật khẩu đã được đặt lại."
+       validate: "Không được để trống"

@@ -88,13 +88,15 @@ en:
        pass: "Password"
        user: "New user?"
        signup: "Sign up now!"
+       remember: "Remember me on this computer"
+       forgot: "(forgot password)"
      create:
        account_login_success: "Login Completed"
        invalid_user_danger: "Invalid email/password combination"
        account_not_active: "Account not activated. Check your email for the
          activation link."
      destroy:
-       delete_user_success: "Good bye"
+       logout_user_success: "Good bye"
   account_activations:
      edit:
        activation_account_success: "Account activated!"
@@ -102,6 +104,20 @@ en:
   user_mailer:
      account_activation:
        app: "Ứng dụng đơn giản"
-  mailer:
-     user_mailer:
        subject: "Kích hoạt tài khoản"
+     password_reset:
+       subject: "Password reset"
+  password_resets:
+     edit:
+       title: "Reset password"
+       submit: "Update password"
+     new:
+       title: "Forgot password"
+       submit: "Submit"
+     create:
+       email_send_success: "Email sent with password reset instructions"
+       invalid_email_danger: "Email address not found"
+       expiration_reset_danger: "Password reset has expired."
+     update:
+       password_reset_success: "Password has been reset."
+       validate: "can't be empty"
