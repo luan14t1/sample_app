@@ -7,6 +7,7 @@ vi:
       home: "Trang chủ"
       top: "Hướng dẫn về Ruby on Rails"
       signup: "Đăng kí ngay bây giờ!"
+      feed: "Bài đăng"
     about:
        title: "Giới thiệu"
        content1: ""
@@ -103,7 +104,7 @@ vi:
        invalid_user_danger: "Liên kết kích hoạt không hợp lệ"
   user_mailer:
      account_activation:
-       app: "Sample App"
+       app: "Ứng dụng đơn giản"
        subject: "Kích hoạt tài khoản"
      password_reset:
        subject: "Đặt lại mật khẩu"
@@ -121,3 +122,21 @@ vi:
      update:
        password_reset_success: "Mật khẩu đã được đặt lại."
        validate: "Không được để trống"
+  microposts:
+     create:
+       create_newpost_success: "Micropost đã được tạo!"
+     destroy:
+       destroy_post_success: " Xóa micropost thành công!"
+     micropost:
+       posted: "Đã đăng"
+       ago: "trước"
+       delete: "xóa"
+       comfirm: "Bạn có chắc chắn?"
+  shared:
+     micropost_form:
+       write: "Viết bài đăng mới..."
+       post: "Đăng"
+       max_file: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+     user_info:
+       micropost: "bài đăng"
+       profile: "xem hồ sơ của bạn"

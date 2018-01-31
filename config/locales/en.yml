@@ -7,6 +7,7 @@ en:
       home: "Home"
       top: "Ruby on Rails Tutorial"
       signup: "Sign up now!"
+      feed: "Micropost Feed"
     about:
       title: "About"
       content1: "The "
@@ -64,6 +65,7 @@ en:
        submit: "Save changes"
        login : "Please login."
        change: "change"
+       invalid_user_login: "Please Login"
      create:
        signup_success: "Welcome to the Sample App!"
        signup_danger: "Error!!!"
@@ -76,6 +78,7 @@ en:
        delete_user_danger: "Delete failed"
      index:
        title: "All users"
+       invalid_user_login: "Please Login"
      user:
        delete: "Delete"
        confirm: "You sure?"
@@ -103,8 +106,8 @@ en:
        invalid_link_danger: "Invalid activation link"
   user_mailer:
      account_activation:
-       app: "Ứng dụng đơn giản"
-       subject: "Kích hoạt tài khoản"
+       app: "Sample App"
+       subject: "Account activation"
      password_reset:
        subject: "Password reset"
   password_resets:
@@ -121,3 +124,21 @@ en:
      update:
        password_reset_success: "Password has been reset."
        validate: "can't be empty"
+  microposts:
+     create:
+       create_newpost_success: "Micropost created!"
+     destroy:
+       destroy_post_success: "Micropost deleted"
+     micropost:
+       posted: "Posted"
+       ago: "ago"
+       delete: "delete"
+       comfirm: "You sure?"
+  shared:
+     micropost_form:
+       write: "Compose new micropost..."
+       post: "Post"
+       max_file: "Maximum file size is 5MB. Please choose a smaller file."
+     user_info:
+       micropost: "micropost"
+       profile: "view my profile"
